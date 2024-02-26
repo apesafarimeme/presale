@@ -1,22 +1,22 @@
 import {Providers} from "./providers";
 import { Noto_Sans } from 'next/font/google';
-// import localFont from 'next/font/local';
+import localFont from 'next/font/local';
 import type { Metadata } from "next";
 import './globals.css';
 
 import Footer from "@/components/Footer";
 
-export const noto_sans = Noto_Sans({
+const noto_sans = Noto_Sans({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-noto',
 });
 
-// export const tribeca = localFont({
-//   src: '../fonts/Tribeca.ttf',
-//   display: 'swap',
-//   variable: '--font-tribeca'
-// });
+export const tribeca = localFont({
+  src: '../fonts/Tribeca.ttf',
+  display: 'swap',
+  variable: '--font-tribeca'
+});
 
 export const metadata: Metadata = {
   title: "ApeSafari - The Meme Coin for Africa and Friends",
