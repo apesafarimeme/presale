@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu@1x</title>
+    <defs>
+        <path d="M2.3,27.5 C1.60833,27.5 1.05208,27.2773 0.63125,26.832 C0.21042,26.3867 0,25.8284 0,25.157 C0,24.4857 0.21042,23.9417 0.63125,23.525 C1.05208,23.1083 1.60833,22.9 2.3,22.9 L35.85,22.9 C36.5092,22.9 37.0573,23.1112 37.4944,23.5337 C37.9315,23.9563 38.15,24.5032 38.15,25.1746 C38.15,25.8459 37.9315,26.4013 37.4944,26.8408 C37.0573,27.2803 36.5092,27.5 35.85,27.5 L2.3,27.5 Z M2.3,16.05 C1.60833,16.05 1.05208,15.8273 0.63125,15.382 C0.21042,14.9367 0,14.395 0,13.757 C0,13.0857 0.21042,12.5417 0.63125,12.125 C1.05208,11.7083 1.60833,11.5 2.3,11.5 L35.85,11.5 C36.5092,11.5 37.0573,11.7112 37.4944,12.1337 C37.9315,12.5563 38.15,13.1032 38.15,13.7746 C38.15,14.4126 37.9315,14.9513 37.4944,15.3908 C37.0573,15.8303 36.5092,16.05 35.85,16.05 L2.3,16.05 Z M2.3,4.6 C1.60833,4.6 1.05208,4.3857 0.63125,3.957 C0.21042,3.5284 0,2.9617 0,2.257 C0,1.619 0.21042,1.08333 0.63125,0.65 C1.05208,0.21667 1.60833,0 2.3,0 L35.85,0 C36.5092,0 37.0573,0.21958 37.4944,0.65875 C37.9315,1.09795 38.15,1.63655 38.15,2.27455 C38.15,2.97925 37.9315,3.543 37.4944,3.9658 C37.0573,4.3886 36.5092,4.6 35.85,4.6 L2.3,4.6 Z" id="path-1"></path>
+        <filter x="-18.3%" y="-18.2%" width="136.7%" height="150.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" transform="translate(4.875, 2.5)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#F98311" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
