@@ -12,7 +12,7 @@ const noto_sans = Noto_Sans({
   variable: '--font-noto',
 });
 
-export const tribeca = localFont({
+const tribeca = localFont({
   src: '../fonts/Tribeca.ttf',
   display: 'swap',
   variable: '--font-tribeca'
